@@ -7,7 +7,7 @@
 ## Table of Contents
 
 * [💡 About This List](#-about-this-list)
-* [✨ Categories](#-categories)
+* [✨ Content](#-content)
     * [Official Resources](#official-resources)
     * [Getting Started & Tutorials](#getting-started--tutorials)
     * [Articles & Blog Posts](#articles--blog-posts)
@@ -24,7 +24,7 @@
 
 ## 💡 About This List
 
-This list is a community-driven effort to gather the most valuable and high-quality resources for anyone working with, learning about, or interested in **Cilium**. Cilium is a powerful open-source project for providing, securing, and observing network connectivity between workloads in cloud-native environments, leveraging the revolutionary Linux kernel technology eBPF.
+Cilium is a powerful open-source project for providing, securing, and observing network connectivity between workloads in cloud-native environments, leveraging Linux kernel technology eBPF. This list is a community-driven effort to gather the most valuable and high-quality resources for anyone working with, learning about, or interested in **Cilium**. 
 
 Whether you're looking for:
 * Official documentation
@@ -33,109 +33,63 @@ Whether you're looking for:
 * Real-world use cases and success stories
 * Community discussions and events
 
-We aim to make it easy to find what you need. Each entry includes a direct link and a concise, informative description.
+Each entry includes a direct link and a concise, informative description.
 
 ---
 
-## ✨ Categories
+## ✨ Content
 
 ### Official Resources
 
-* **Cilium Website** - The official homepage for the Cilium project, with links to documentation, use cases, and community.
-    * [https://cilium.io/](https://cilium.io/)
-* **Cilium GitHub Repository** - The main source code repository for Cilium.
-    * [https://github.com/cilium/cilium](https://github.com/cilium/cilium)
-* **eBPF.io** - The official website for eBPF, a core technology behind Cilium, offering a wealth of information about eBPF itself.
-    * [https://ebpf.io/](https://ebpf.io/)
-* **Hubble GitHub Repository** - The repository for Hubble, the observability platform built on Cilium and eBPF.
-    * [https://github.com/cilium/hubble](https://github.com/cilium/hubble)
-* **Tetragon GitHub Repository** - The repository for Tetragon, a flexible Kubernetes-aware security observability and runtime enforcement tool using eBPF.
-    * [https://github.com/cilium/tetragon](https://github.com/cilium/tetragon)
+* **[Cilium Website](https://cilium.io/)** - The official homepage for the Cilium project, with links to documentation, use cases, and community.
+* **[Cilium GitHub Repository](https://github.com/cilium/cilium)** - The main source code repository for Cilium.
+* **[eBPF.io](https://ebpf.io/)** - The official website for eBPF, a core technology behind Cilium, offering a wealth of information about eBPF itself.
+* **[Hubble GitHub Repository](https://github.com/cilium/hubble)** - The repository for Hubble, the observability platform built on Cilium and eBPF.
+* **[Tetragon GitHub Repository](https://github.com/cilium/tetragon)** - The repository for Tetragon, a flexible Kubernetes-aware security observability and runtime enforcement tool using eBPF.
+
 
 ### Getting Started & Tutorials
 
-* **Cilium Getting Started Guide** - Official documentation for quickly deploying and experimenting with Cilium.
-    * [https://docs.cilium.io/en/stable/gettingstarted/](https://docs.cilium.io/en/stable/gettingstarted/)
-* **Interactive Cilium Labs** - Hands-on, browser-based labs to explore various Cilium features without a local setup.
-    * [https://labs.cilium.io/](https://labs.cilium.io/)
-* **Kubernetes Network Policies in Action with Cilium** - A practical guide to implementing network policies using Cilium.
-    * [Link to Article/Video]
-* **Deploying Cilium on [Your Favorite Cloud/Platform]** - A specific tutorial for setting up Cilium on AWS EKS, Google GKE, Azure AKS, K3s, etc.
-    * [Link to Resource]
+* **[Cilium Getting Started Guide](https://docs.cilium.io/en/stable/gettingstarted/)** - Official documentation for quickly deploying and experimenting with Cilium.
+* **[Interactive Cilium Labs](https://labs.cilium.io/)** - Hands-on, browser-based labs to explore various Cilium features without a local setup.
+* **[Isovalent Labs](https://isovalent.com/labs/)** - Hands-on, browser-based labs to explore various eBPF and Cilium in Isovalent site.
+* **[Deploying Cilium on Google GKE](https://docs.cilium.io/en/latest/network/concepts/ipam/gke/)** - A specific tutorial for setting up Cilium on Google GKE.
 
-### Articles & Blog Posts
 
-* **Understanding Cilium's eBPF Dataplane** - A detailed blog post explaining how Cilium leverages eBPF for networking.
-    * [Link to Article]
-* **Cilium and Kube-Proxy Replacement** - An article discussing how Cilium can replace `kube-proxy` for improved performance and scalability.
-    * [Link to Article]
-* **Service Mesh with Cilium and Envoy** - Exploring Cilium's capabilities as a service mesh or in conjunction with Envoy.
-    * [Link to Article]
-* **Transparent Encryption with Cilium** - How Cilium provides transparent encryption for pod-to-pod communication.
-    * [Link to Article]
+### Books & Articles
+
+* **[Cilium: Up and Running](https://isovalent.com/books/cilium-up-and-running/)** - A book that guides breaks Cilium down, making it broadly accessible to the increasing number of users who'll encounter the platform in their careers.
+* **[Linux Observability with BPF](https://www.oreilly.com/library/view/linux-observability-with/9781492050193/)** - A book that dives into the BPF program lifecycle and provide examples to inject code to monitor, trace, and securely observe events in the kernel.
+* **[Cilium and eBPF for Cloud Native Development](https://www.amazon.com/Ultimate-Cilium-eBPF-Cloud-Native-Development-Observability-Environments/dp/B0DY88M12X)** - A book that explores eBPF and Cilium in depth, starting with core concepts and fundamental principles to establish a solid foundation.
+* **[Understanding Cilium's eBPF Dataplane](https://ashrafur.medium.com/understanding-cilium-an-introductory-guide-423c21a461d0)** - A detailed blog post explaining how Cilium leverages eBPF for networking.
+* **[The BSD Packet Filter: A New Architecture for User-level Packet Capture](https://www.tcpdump.org/papers/bpf-usenix93.pdf)** - An academic article with a deep dive into BPF. 
+* **[Cilium and eBPF: A Deep Dive into Modern Networking and Observability](https://medium.com/@aruns89/cilium-and-ebpf-a-deep-dive-into-modern-networking-and-observability-66c6ed75a11b)** - An article with a deep dive into Cilium and eBPF.
+
 
 ### Talks & Presentations
 
-* **KubeCon North America [Year]: Cilium Deep Dive** - Video and slides from a major conference deep diving into Cilium.
-    * [Link to Video/Slides]
-* **eBPF Summit [Year]: Beyond Networking with Cilium & eBPF** - A presentation showcasing advanced use cases of Cilium.
-    * [Link to Video/Slides]
-* **CiliumCon [Year] Keynotes & Sessions** - Links to recordings or summaries of key talks from official Cilium conferences.
-    * [Link to Event Page/Playlist]
+* **[eBPF and Cilium at Google](https://www.youtube.com/watch?v=26KbW5-BeNA)** - Purvi Desai, Director of Engineering at Google Cloud networking provides an overview of Google's adoption and contributions to eBPF and Cilium.
+* **[Cilium Talks at KubeCon](https://cilium.io/blog/2024/10/04/cilium-kubecon-na-2024/)** - Video and slides from a major conference deep diving into Cilium.
+* **[CiliumCon Keynotes & Sessions](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/ciliumcon/)** - Links to recordings or summaries of key talks from official Cilium conferences.
 
+    
 ### Integrations & Tools
 
-* **Prometheus & Grafana for Cilium Metrics** - How to set up monitoring and visualization for Cilium.
-    * [Link to Guide/Dashboard Repo]
-* **Cilium Helm Charts** - Official and community-maintained Helm charts for deploying Cilium.
-    * [Link to Helm Repo/Docs]
-* **Cilium + Istio Integration** - Resources on running Cilium as the CNI for an Istio service mesh.
-    * [Link to Docs/Article]
-* **NetworkPolicy Editor for Kubernetes & Cilium** - A tool or guide for visualizing and creating network policies.
-    * [Link to Tool/Resource]
+* **[Prometheus & Grafana for Cilium Metrics](https://docs.cilium.io/en/stable/observability/grafana/)** - How to set up monitoring and visualization for Cilium.
+* **[Cilium Helm Charts](https://docs.cilium.io/en/stable/installation/k8s-install-helm/)** - Official and community-maintained Helm charts for deploying Cilium.
+* **[Cilium + Istio Integration](https://docs.cilium.io/en/latest/network/servicemesh/istio/)** - Resources on running Cilium as the CNI for an Istio service mesh.
 
-### Use Cases & Case Studies
-
-* **[Company Name] Uses Cilium for [Problem Solved]** - A case study detailing how a company leverages Cilium in production.
-    * [Link to Case Study/Blog Post]
-* **Multi-Cluster Networking with Cilium Cluster Mesh** - Real-world examples or guides on connecting multiple Kubernetes clusters with Cilium.
-    * [Link to Article/Demo]
-* **Edge Deployments with Cilium** - How Cilium is used in edge computing scenarios.
-    * [Link to Article/Presentation]
-
-### eBPF Deep Dives (Cilium Context)
-
-* **Learning eBPF: From Basics to Advanced** - Resources that explain eBPF concepts specifically relevant to how Cilium utilizes them.
-    * [Link to Resource]
-* **Cilium's BPF and XDP Reference Guide** - In-depth documentation on Cilium's specific eBPF and XDP implementations.
-    * [Link to Docs]
-* **Understanding Cilium's Dataplane with eBPF (Advanced)** - A highly technical explanation of Cilium's interaction with the Linux kernel via eBPF.
-    * [Link to Resource]
 
 ### Community
 
-* **Cilium Slack Channel** - Join the official Cilium Slack workspace for community discussions and support.
-    * [Link to Slack Invite]
-* **Cilium Mailing List / Forum** - For broader discussions and announcements.
-    * [Link to Mailing List/Forum]
-* **Cilium Community Meetings** - Information about regular community calls and how to participate.
-    * [Link to Meeting Info]
+* **[Cilium Slack Channel](https://cilium.io/get-involved/)** - Join the official Cilium Slack workspace for community discussions and support.
+
 
 ---
 
 ## 💖 Contributing
 
-We thrive on community contributions! If you know of an awesome Cilium-related resource that isn't on this list, or if you find any broken links or inaccuracies, please help us keep this list up-to-date and valuable.
-
-To contribute:
-
-1.  **Fork** this repository.
-2.  **Clone** your forked repository: `git clone https://github.com/your-username/awesome-cilium.git`
-3.  Create a new **branch**: `git checkout -b add/new-resource-name` (or `fix/broken-link`)
-4.  **Add** your resource to the most appropriate category, ensuring it follows the existing formatting (`* **Resource Name** - Brief description. [Link]`).
-5.  **Commit** your changes: `git commit -m "feat: Add [Resource Name] to [Category]"`
-6.  **Push** to your branch: `git push origin add/new-resource-name`
-7.  Open a **Pull Request**.
+I thrive on community contributions! If you know of an awesome Cilium-related resource that isn't on this list, or if you find any broken links or inaccuracies, please help us keep this list up-to-date and valuable.
 
 Please read our **[CONTRIBUTING.md](CONTRIBUTING.md)** for detailed guidelines, including criteria for inclusion (e.g., must be Cilium-specific or highly relevant) and formatting standards.
 
@@ -149,7 +103,6 @@ This project is licensed under the **[MIT License](LICENSE)** - see the [LICENSE
 
 ## Acknowledgements
 
-* Inspired by the [Awesome List](https://github.com/sindresorhus/awesome) project by Sindre Sorhus.
-* Special thanks to the entire Cilium community and all contributors who help keep this list comprehensive and up-to-date!
+* Inspired by the Cilium community and all contributors who help keep this list comprehensive and up-to-date!
 
 ---
